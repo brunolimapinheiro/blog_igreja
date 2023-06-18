@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+h1{
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Kaushan Script', cursive;
+color:white;
+}
+header{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(6, 6, 246, 0.915);
+    height: 100%;
+    gap:20px;
+    padding:10px 10px 10px 10px;
+}
+main{
+    background-color: black;
+}
+
+.slide {
+    display: flex;
+    align-items:stretch;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 10px;
+    
+
+}
+
+.carrosel{
+    filter: drop-shadow(0px 8px 10px black);
+    overflow: hidden;
+    width: 1250px;
+    height:370px;
+
+}
+.conteiner{
+    display: flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+    width: 2000px;
+}
+.conteiner > img {
+    height:370px ;
+    width:1250px ;
+}
+
+.secao1{
+   border: 2px solid white;
+
+
+}
+.sobre{
+    display: flex;
+    background-color: rgb(103, 101, 101);
+    padding:10px 10px 10px 10px;
+}
+.texto > h2{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+.texto > p{
+    padding:10px 10px 10px 30px;
+    font-size: 25px;
+}
+
+footer{
+    background-color: rgba(6, 6, 246, 0.915);
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    padding-top: 10px;
+}
