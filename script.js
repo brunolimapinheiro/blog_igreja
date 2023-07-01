@@ -1,6 +1,7 @@
-const box= document.querySelector(".conteiner");
+const box= document.querySelector(".conteiner"); 
 const imagens= document.querySelectorAll(".conteiner img");
-let contador=0;
+const selecao = document.querySelector(".sobre");  // variaveis para manipular as divs
+let contador=0; 
 function slider(){
     contador++;
     if(contador > 1){
@@ -10,7 +11,8 @@ function slider(){
    else{
         box.style.transform=`translateX(${-contador*720}px)`;
    }
+} // função para criar meu slider
+
+setInterval(slider, 2000); // intervalo quando as fotos aparecerem
 
 
-}
-setInterval(slider, 2000);

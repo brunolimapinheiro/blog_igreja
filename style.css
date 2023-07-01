@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 h1{
 font-family: 'Bebas Neue', sans-serif;
 font-family: 'Kaushan Script', cursive;
@@ -18,7 +20,11 @@ header{
     height: 100%;
     gap:20px;
     padding:10px 10px 10px 10px;
+    transition-timing-function: ease;
+    transition-duration: 2s;
 }
+
+
 main{
     background-color: black;
 }
@@ -29,7 +35,8 @@ main{
     justify-content: center;
     min-height: 100vh;
     padding-top: 10px;
-    
+    height: 100px;
+     
 
 }
 
@@ -60,21 +67,92 @@ main{
     display: flex;
     background-color: rgb(103, 101, 101);
     padding:10px 10px 10px 10px;
+
 }
+
+
 .texto > h2{
     color: white;
     text-decoration: underline;
     text-align: center;
 }
+
 .texto > p{
     padding:10px 10px 10px 30px;
     font-size: 25px;
 }
 
+.secao2{
+    border:2px solid white;
+   margin: 50px 0px 50px 0px;
+   display: flex;
+
+}
+
+.sobre2{
+    display: flex;
+    background-color: rgb(103, 101, 101);
+    padding:10px 10px 10px 10px;
+
+}
+.sobre2 > h2{
+    text-align: center;
+    color:white;
+    text-decoration: underline;
+}
+
+.videoYoutube{
+    padding-bottom:30px;
+}
+
+.videoYoutube > .video {
+    border:2px solid rgb(36, 36, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.videoYoutube > h2{
+    text-align: center;
+    font-size: 25px;
+    color:rgb(36, 36, 238);
+
+}
+.videoYoutube > .video > .caixa{
+ padding: 20px 20px 20px 20px;
+  display:inline-block;
+
+   
+}
+address{
+    background-color: rgba(6, 6, 246, 0.915);
+}
+
+address > .informacoes > a {
+  display: inline-block;
+ text-decoration: none;
+ font-weight: bold;
+ font-size: 20px;
+} 
+
+address > .informacoes > a:hover{
+    text-decoration: underline;
+}
+
+address > h6{
+    font-size: 30px;
+} 
+.informacoes{
+    padding: 10px;
+}
 footer{
     background-color: rgba(6, 6, 246, 0.915);
     text-align: center;
     font-weight: bold;
     color:white;
     padding-top: 10px;
+}
+
+footer > p{
+    font-size:20px;
 }
