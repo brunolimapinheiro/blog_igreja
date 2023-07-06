@@ -9,7 +9,7 @@ function slider(){
     box.style.transform=`translateX(0)`;
 }
    else{
-        box.style.transform=`translateX(${-contador*720}px)`;
+        box.style.transform=`translateX(${-contador*700}px)`;
    }
 } // função para criar meu slider
 
