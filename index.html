@@ -8,9 +8,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="css/style.css" media="all">
-
+   
 
 </head>
 <body>
@@ -75,4 +75,14 @@
     </footer>
 </body>
 <script src="script.js"></script>
+<script>
+  ScrollReveal().reveal('.secao1', {
+    rotate : { x: 0 , y:80 , z:0},
+    duration:2000
+  });
+  ScrollReveal().reveal('.secao2', {
+    rotate : { x: 0 , y:100 , z:0},
+    duration:2000
+  });
+</script>
 </html>
